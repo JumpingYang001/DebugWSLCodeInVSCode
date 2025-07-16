@@ -32,6 +32,7 @@ Debug WSL C/C++ code in VSCode
         }
     ]
 }
+```
 
 /home/myusername/.vscode/tasks.json
 
