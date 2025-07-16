@@ -12,8 +12,8 @@ Debug WSL C/C++ code in VSCode
             "name": "Debug Simple C Program",
             "type": "gdb",
             "request": "launch",
-            "target": "/home/myusername/omi-pr/simple_program",
-            "cwd": "/home/myusername/omi-pr",
+            "target": "/home/myusername/myrepo/simple_program",
+            "cwd": "/home/myusername/myrepo",
             "valuesFormatting": "parseText",
             "preLaunchTask": "build simple C program"
         },
@@ -21,8 +21,8 @@ Debug WSL C/C++ code in VSCode
             "name": "Debug Simple C Program (with GDB commands)",
             "type": "gdb",
             "request": "launch",
-            "target": "/home/myusername/omi-pr/simple_program",
-            "cwd": "/home/myusername/omi-pr",
+            "target": "/home/myusername/myrepo/simple_program",
+            "cwd": "/home/myusername/myrepo",
             "valuesFormatting": "parseText",
             "preLaunchTask": "build simple C program",
             "gdbpath": "/usr/bin/gdb",
@@ -58,14 +58,14 @@ Debug WSL C/C++ code in VSCode
 				"$gcc"
 			],
 			"options": {
-				"cwd": "/home/myusername/omi-pr"
+				"cwd": "/home/myusername/myrepo"
 			}
 		}
 	]
 }
 ```
 
-/mnt/d/Repo01/simple_program.c
+/mnt/d/Repo01/myrepo/simple_program.c
 ```
 #include <stdio.h>
 #include <stdlib.h>
